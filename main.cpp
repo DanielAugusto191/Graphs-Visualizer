@@ -10,7 +10,7 @@ using content=int;
 typedef vector<vector<int> > Graph;
 
 const float raio = 50.f;
-const pair<int, int> video_Width_Height = {500, 500}; // Width, Height
+const pair<int, int> video_Width_Height = {800, 800}; // Width, Height
 const pair<int, int> offset = {10, 50}; // Offset X, Offset Y;
 const int fontSize = 16; // < 30;
 
@@ -35,7 +35,7 @@ int main()
 	int l = 0;
 	for(double i = 0; i < 360 && l < n; i+= k, ++l){
 			double rad = i*M_PI/180;
-			vertices[l].setPosition(250 + 200 * cos(rad), 250 + 200 * sin(rad));
+			vertices[l].setPosition(400 + 300 * cos(rad), 400 + 300 * sin(rad));
 	}
 	// Grafo
 	Graph G(n);
@@ -50,7 +50,7 @@ int main()
 
 	sf::Text Labels[n];
 	for(int i=0;i<n;++i){
-		sf::Text tex((char)(i+65), font, 16);
+		sf::Text tex(to_string(i), font, 16);
 		Labels[i] = tex;
 		Labels[i].setPosition(vertices[i].getPosition().x + raio/2, vertices[i].getPosition().y + raio/2);
 		Labels[i].setFillColor(sf::Color::Red);
