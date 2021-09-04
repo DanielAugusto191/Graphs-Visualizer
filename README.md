@@ -22,8 +22,16 @@ Executing:<br>
 The first line contains two integers N and M (1 <= N <= 30, 0 <= M <= N-1) — the number of vertices and the number of edges, respectively<br>
 Next M lines contains two integers X and Y (0 <= X,Y < N) - If have an edge between X and Y. (The vertices are 0 based) <br>
 
-## Imgs: <br>
+## Examples: <br>
 - Ex 1: <br>
+6 6<br>
+0 1<br>
+1 2<br>
+2 3<br>
+3 4<br>
+4 5<br>
+5 0<br>
+Gives:<br>
 ![Imgur](https://i.imgur.com/2pNzxmS.png)<br>
-- K-10 <br>
+- Ex 2. K-10 <br>
 ![Imgur](https://i.imgur.com/pUV76Jm.png)<br>
