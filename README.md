@@ -1,5 +1,5 @@
 # Graphs-Visualizer
-This is a unbalaced(for while?) graph visualizer.
+This is a unweighted(for while?) graph visualizer.
 
 ## SFML
 It's using SFML library:<br>
