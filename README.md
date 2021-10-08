@@ -4,7 +4,7 @@ This is a unweighted(for while?) graph visualizer.
 ## SFML
 It's using SFML library:<br>
 If you're using arch:<br>
-  ```sudo pacman -S sfml``` or ```sudo yay -S sfml``` <br>depends what packger manager you're using.
+  ```sudo pacman -S sfml``` or ```sudo yay -S sfml``` <br>depends what packager manager you're using.
 
 Debian, ubuntu: <br>
 ```sudo apt-get install libsfml-dev```
@@ -19,8 +19,8 @@ Executing:<br>
 ```make e```<br>
 
 ## Input:<br>
-The first line contains two integers N and M (1 <= N <= 30, 0 <= M <= N-1) — the number of vertices and the number of edges, respectively<br>
-Next M lines contains two integers X and Y (0 <= X,Y < N) - If have an edge between X and Y. (The vertices are 0 based) <br>
+The first line input two integers N and M (1 <= N <= 30, 0 <= M <= N-1) — the number of vertices and the number of edges, respectively<br>
+Next M lines input two integers X and Y (0 <= X,Y < N) - If have an edge between vertice X and vertice Y. (The vertices are 0 based) <br>
 
 ## Examples: <br>
 - Ex 1: <br>
