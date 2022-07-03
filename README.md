@@ -16,6 +16,7 @@ Compiling:
 ```make``` or ```make c``` <br>
 If you wanna compile manually, use: ```-lsfml-graphics -lsfml-window -lsfml-system```<br>
 Executing:<br>
+Put your graph on "case.txt" with the input format and use:<br>
 ```make e```<br>
 
 ## Input:<br>
